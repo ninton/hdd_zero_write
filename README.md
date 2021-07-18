@@ -54,7 +54,6 @@ sudoのパスワードを聞かれたら、入力してください。
 
 ```
 $ time ./hdd_zero_write.sh /dev/sdc
-[sudo] hoge のパスワード: 
 total_bytes=512110190592
 
 skip=0
