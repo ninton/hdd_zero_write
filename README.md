@@ -1,6 +1,6 @@
 # hdd_zero_write
 Write zero to hard disk (SSD) and check zero
-廃棄前のディスク全体のデータ抹消します。
+廃棄前や譲渡前のディスク全体のデータ抹消します。
 ハードディスクを1GBごとに非0を数えて、非0があれば、0を書き込みます。
 
 ## OS
