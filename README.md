@@ -39,9 +39,9 @@ sda      8:0    0 894.3G  0 disk
 ├─sda1   8:1    0   512M  0 part /boot/efi
 └─sda2   8:2    0 893.8G  0 part /
 sdb      8:16   0   2.7T  0 disk 
-└─sdb1   8:17   0   2.7T  0 part /media/aoki/USB_3TB_BKUP1
+└─sdb1   8:17   0   2.7T  0 part /media/hoge/USB_3TB_BKUP1
 sdc      8:32   0   477G  0 disk ★コレがターゲットです！
-└─sdc1   8:33   0   477G  0 part /media/aoki/C0E2F85FE2F85ADC
+└─sdc1   8:33   0   477G  0 part /media/hoge/C0E2F85FE2F85ADC
 
 ```
 
@@ -58,7 +58,7 @@ $ time ./hdd_zero_write.sh /dev/sdc
 total_bytes=512110190592
 
 skip=0
-[sudo] aoki のパスワード: 
+[sudo] hoge のパスワード: 
 1+0 レコード入力
 2097152+0 レコード出力
 notzero_bytes=0
